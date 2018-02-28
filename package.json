@@ -1,0 +1,28 @@
+{
+  "name": "project_tech_site",
+  "version": "1.0.0",
+  "description": "Dating site prototype",
+  "main": "./src/importfiles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "keywords": [
+    "Dating",
+    "school",
+    "project"
+  ],
+  "author": "Folkert-Jan van der Pol",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.4.2",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
